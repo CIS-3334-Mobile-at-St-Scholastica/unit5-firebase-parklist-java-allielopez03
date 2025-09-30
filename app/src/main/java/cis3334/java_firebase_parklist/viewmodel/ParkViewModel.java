@@ -39,6 +39,7 @@ public class ParkViewModel extends ViewModel {
         // Simulate loading parks (in future, this would be from a FirebaseService equivalent)
         // Post a new ArrayList to LiveData to ensure observers see it as a new list
         _parks.setValue(new ArrayList<>(_sampleParksList));
+        //i think load in new park here
     }
 
     public void selectPark(String parkId) {
